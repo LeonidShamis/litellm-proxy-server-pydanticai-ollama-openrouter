@@ -1,0 +1,13 @@
+model_list:
+  - model_name: "llama3.2:3b-instruct-q8_0"
+    litellm_params:
+      model: "ollama/llama3.2:3b-instruct-q8_0"
+  - model_name: "qwen2.5-coder:32b-instruct-q8_0"
+    litellm_params:
+      model: "ollama/qwen2.5-coder:32b-instruct-q8_0"
+  - model_name: "gemini-2.0-flash-lite-preview-02-05:free"
+    litellm_params:
+      model: "openrouter/google/gemini-2.0-flash-lite-preview-02-05:free"
+
+general_settings:
+  master_key: sk-1234

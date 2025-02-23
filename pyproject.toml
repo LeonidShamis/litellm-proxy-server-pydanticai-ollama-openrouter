@@ -1,0 +1,11 @@
+[project]
+name = "litellm-proxy-server-pydanticai-ollama-openrouter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "litellm[proxy]>=1.61.13",
+    "pydantic-ai-slim[openai]>=0.0.24",
+    "python-dotenv>=1.0.1",
+]
