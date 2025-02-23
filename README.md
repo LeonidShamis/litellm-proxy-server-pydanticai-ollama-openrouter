@@ -149,7 +149,7 @@ $ uv run python litellm_proxy_example_usage_streaming.py
 $
 ```
 
-## Basic PytdanticAI Agent demostration using Ollama and OpenRouter
+## Basic PytdanticAI Agent demonstration using Ollama and OpenRouter
 
 ```
 $ uv run python ollama_example.py
